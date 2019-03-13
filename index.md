@@ -1,6 +1,14 @@
 ---
-title: Hello
-layout: default
+title: Strona główna
 ---
- 
-Hello!
+
+ <h1>Ostanie wpisy</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
