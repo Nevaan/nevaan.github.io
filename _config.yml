@@ -1,5 +1,6 @@
-title: DevNev Coding Blueprints
+title: Nevaan Coding Blueprints
 plugins:
   - jekyll-remote-theme
+  - jekyll-assets
 
 remote_theme: heiswayi/the-plain
